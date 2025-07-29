@@ -1,1 +1,21 @@
+# Ortam değişkenleri
 .env
+
+# Firebase derleme dosyaları veya geçici içerikler
+firebase-debug.log
+.firebaserc
+
+# Firebase içeriği (sadece deploy klasörü, tüm firebase klasörü değil!)
+# Eğer Cloud Functions yazmadıysan firebase klasörünü gizleyebilirsin.
+firebase/
+
+# Node.js bağımlılık klasörü
+node_modules/
+
+# Derleme çıktıları (örn. React veya diğer frameworkler için)
+dist/
+build/
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
